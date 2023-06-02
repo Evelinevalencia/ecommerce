@@ -1,0 +1,2116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+/* navbar */
+.navTulisan {
+    font-weight: 600;
+    color: #011126;
+    font-size: 20px;
+    text-align: center;
+}
+
+.navGeserL-KR {
+    margin-left: 50px;
+}
+
+.navGeserL-KN {
+    margin-right: 30px;
+}
+
+.ulKiri,
+.ulKanan {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+.navFlex {
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-left: -10px;
+}
+
+.navbar-nav .nav-item a:hover, .iconFooter a :hover {
+    color:#0645ad;
+}
+
+.navDaftar {
+    width: 120px;
+}
+
+.navMasuk {
+    width: 110px;
+    background-color: #011126;
+    height: 50px;
+    padding: 10px;
+    color: white;
+}
+
+.navKeranjang {
+    width: 170px;
+    background-color: #8c661f;
+    color: white;
+    height: 52px;
+    line-height: 32px;
+}
+
+.navLogoKeranjang {
+    letter-spacing: 5px;
+}
+
+.navLogoAkun {
+    letter-spacing: 5px;
+}
+/* end navbar */
+
+/* footer */
+
+.clearBothFooter {
+    clear: both;
+}
+
+.containerFooter {
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #011126;
+    /* border: 1px solid red; */
+}
+
+.imgFooter {
+    width: 700px;
+    /* border: 5px solid red; */
+    float: left;
+}
+
+.imgWHFooter {
+    width: 500px;
+    height: 477px;
+}
+
+.informasiFooter {
+    box-sizing: border-box;
+    padding-top: 50px;
+    width: 355.4px;
+    /* border: 1px solid cyan; */
+    display: inline-block;
+}
+
+.isiInformasiFooter {
+    color: white;
+    font-weight: 550;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.socialMediaFooter {
+    display: inline-block;
+    box-sizing: border-box;
+    padding-top: 70px;
+    /* border: 1px solid; */
+}
+
+.iconFooter {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 20px;
+    text-decoration: none;
+}
+
+.tokpedFooter {
+    width: 32px;
+    height: 32px;
+    margin-right: 20px;
+    margin-top: -10px;
+    text-decoration: none;
+}
+
+.copyRightFooter {
+    box-sizing: border-box;
+    padding-top: 20px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+/* end footer */
+
+
+ /* dashboard */
+  .containerL-B {
+    width: 1100px;
+    margin: auto;
+}
+
+.cardBorderL-B {
+    margin-bottom: 20px;
+}
+.imgCardL-B {
+    width: 350px;
+    height: 335px;
+}
+
+.cardJudulL-B {
+    font-weight: 640;
+    font-size: 18px;
+}
+
+.cardDiskonL-B,
+.cardHargaL-B {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.cardHargaNormalL-B, .kosongHome {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    color: #8c661f;
+}
+
+.cardHargaL-B {
+    color: #8c661f;
+}
+
+.cardDiskonL-B {
+    color: grey;
+    margin-left: 5px;
+    text-decoration: line-through #8c661f;
+}
+
+.cardTerjualL-B {
+    float: right;
+    font-weight: 600;
+    font-size: 18px;
+    color: grey;
+}
+
+.clear {
+    clear: right;
+}
+
+.aturCarouselL-B {
+    height: 550px;
+}
+
+.produkBaruL-B {
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.aL-B{
+    text-decoration: none;
+}
+ /* end dashboard */
+
+ /* edit design */
+ .containerD-ED {
+  width: 850.5px;
+  margin: auto;
+}
+
+.judulD-ED {
+  font-weight: 650;
+  font-size: 30px;
+}
+
+.namaD-ED {
+  line-height: 35px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.isiD-ED {
+  width: 700px;
+  height: 35px;
+}
+
+.isiD-EDFile {
+  width: 300px;
+  height: 35px;
+}
+
+.buttonSimpanD-ED {
+  width: 425px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  background-color: #011126;
+  color: white;
+}
+/* end edit design */
+
+/* design customer */
+.containerDesain {
+  text-align: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.row{
+padding-bottom: 100px;
+}
+
+.imgKanan{
+  width: 500px;
+  height: 334px;
+}
+
+.h1JudulKanan{
+  text-align: right;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.pIsiKanan{
+  text-align: right;
+  font-weight: 600;
+}
+
+.imgKiri{
+  width: 500px;
+  height: 334px;
+}
+
+.h1JudulKiri{
+  text-align: left;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.pIsiKiri{
+  text-align: left;
+  font-weight: 600;
+}
+
+/* end design customer */
+
+/* tentang kami */
+.containerTentangKami {
+  text-align: center;
+  align-items: center;
+}
+
+.h1Tim {
+  font-weight: 550;
+  font-size: 76px;
+  padding-bottom: 30px;
+}
+
+.anggotaTim {
+  font-size: 200px;
+}
+
+.pTim {
+  padding-top: 20px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 590;
+  letter-spacing: 1px;
+  word-spacing: 0px;
+}
+
+.h1Cerita {
+  padding-top: 30px;
+  font-weight: 550;
+  font-size: 76px;
+}
+
+.imgTentangKami {
+  width: 500px;
+  height: 334px;
+}
+
+.rowTentangKami {
+  padding-top: 50px;
+}
+
+.pIsiGambarTentangKami {
+  text-align: center;
+  color: #8c661f;
+}
+
+.colAturMarginTK{
+  margin-left: 0px;
+}
+/* end tentang kami */
+/* katalog */
+.containerL-K {
+  width: 1100px;
+  margin: auto;
+}
+
+.cardBorderL-K{
+  margin-bottom: 20px;
+}
+.imgCardL-K {
+  width: 350px;
+  height: 335px;
+}
+
+.cardJudulL-K {
+  font-weight: 640;
+  font-size: 18px;
+}
+
+.cardDiskonL-K,
+.cardHargaL-K, .kosongHome {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.cardHargaL-K {
+  color: #8c661f;
+}
+
+.cardDiskonL-K {
+  color: grey;
+  margin-left: 5px;
+  text-decoration: line-through #8c661f;
+}
+
+.cardTerjualL-K {
+  float: right;
+  font-weight: 600;
+  font-size: 18px;
+  color: grey;
+}
+
+.clear {
+  clear: right;
+}
+
+.dropdownL-K{
+  float: right;
+}
+
+.terjualL-K{
+  margin-top: 17px;
+  float: right;
+  font-weight: 600;
+  font-size: 18px;
+  color: grey;
+}
+
+.aL-K{
+  text-decoration: none;
+}
+/* end katalog */
+
+/* login */
+.containerRegisterD-L {
+  float: left;
+  width: 700px;
+  /* border: 1px solid black; */
+  margin-left: 120px;
+}
+
+.containerImgD-L {
+  float: right;
+  width: 600px;
+  /* border: 1px solid red; */
+}
+
+.clearD-L {
+  clear: both;
+}
+
+.imgCardD-L {
+  width: 599.3px;
+  height: 631px;
+}
+
+.judulD-L {
+  font-weight: 650;
+  font-size: 40px;
+}
+
+.subJudulD-L {
+  margin-top: -10px;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.borderInputD-L {
+  display: block;
+  width: 520px;
+  height: 55px;
+  margin-bottom: 20px;
+}
+
+.salahInfoD-L {
+  color: red;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.buttonMasukD-L {
+  width: 520px;
+  height: 55px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  background-color: #011126;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.akunD-L{
+/* border: 1px solid black; */
+width: 520px;
+}
+
+.punyaAkunD-L, .kataSandiD-L {
+  text-decoration: none;
+  font-size: 16px;
+  color: #011126;
+  font-weight: 600;
+}
+
+.kataSandiD-L {
+    float: right;
+}
+
+.copyRightD-L {
+  font-size: 14px;
+  margin-top: 216px;
+}
+
+/* end login */
+
+/* register */
+.containerRegisterD-P {
+  float: left;
+  width: 700px;
+  /* border: 1px solid black; */
+  margin-left: 120px;
+}
+
+.containerImgD-P {
+  float: right;
+  width: 600px;
+  /* border: 1px solid red; */
+}
+
+.clearD-P {
+  clear: both;
+}
+
+.imgCardD-P {
+  width: 599.3px;
+  height: 631px;
+}
+
+.judulD-P {
+  font-weight: 650;
+  font-size: 40px;
+}
+
+.subJudulD-P {
+  margin-top: -10px;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.borderInputD-P {
+  display: block;
+  width: 520px;
+  height: 55px;
+  margin-bottom: 20px;
+}
+
+.salahInfoD-P {
+  color: red;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.buttonDaftarD-P {
+  width: 520px;
+  height: 55px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  background-color: #011126;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.punyaAkunD-P {
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+  color: #011126;
+  font-weight: 600;
+}
+
+.copyRightD-P{
+    font-size: 14px;
+    margin-top: 66px;
+}
+
+/* end register */
+
+/* lupa password */
+.containerRegisterL-P {
+  float: left;
+  width: 700px;
+  /* border: 1px solid black; */
+  margin-left: 120px;
+}
+
+.containerImgL-P {
+  float: right;
+  width: 600px;
+  /* border: 1px solid red; */
+}
+
+.clearL-P {
+  clear: both;
+}
+
+.imgCardL-P {
+  width: 599.3px;
+  height: 631px;
+}
+
+.judulL-P {
+  font-weight: 650;
+  font-size: 40px;
+}
+
+.subJudulL-P {
+  margin-top: -10px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  width: 445px;
+}
+
+.borderInputL-P {
+  display: block;
+  width: 520px;
+  height: 55px;
+  margin-bottom: 20px;
+}
+
+.salahInfoL-P {
+  color: red;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.buttonKirimL-P {
+  width: 520px;
+  height: 55px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  background-color: #011126;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.copyRightL-P {
+  font-size: 14px;
+  margin-top: 186px;
+}
+
+/* end lupa password */
+
+/* pass baru */
+.containerRegisterL-PB {
+  float: left;
+  width: 700px;
+  /* border: 1px solid black; */
+  margin-left: 120px;
+}
+
+.containerImgL-PB {
+  float: right;
+  width: 600px;
+  /* border: 1px solid red; */
+}
+
+.clearL-PB {
+  clear: both;
+}
+
+.imgCardL-PB {
+  width: 599.3px;
+  height: 631px;
+}
+
+.judulL-PB {
+  font-weight: 650;
+  font-size: 40px;
+}
+
+.borderInputL-PB {
+  display: block;
+  width: 520px;
+  height: 55px;
+  margin-bottom: 20px;
+}
+
+.salahInfoL-PB {
+  color: red;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.buttonSimpanL-PB {
+  width: 520px;
+  height: 55px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  background-color: #011126;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.copyRightL-PB {
+  font-size: 14px;
+  margin-top: 266px;
+}
+
+/* end pass baru */
+
+/* add design */
+.containerD-TD {
+  width: 850.5px;
+  margin: auto;
+}
+
+.judulD-TD {
+  font-weight: 650;
+  font-size: 30px;
+}
+
+.namaD-TD {
+  line-height: 35px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.isiD-TD {
+  width: 700px;
+  height: 35px;
+}
+
+.isiD-TDFile {
+  width: 300px;
+  height: 35px;
+}
+
+.buttonTambahD-TD {
+  width: 425px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  background-color: #011126;
+  color: white;
+}
+
+/* end add design */
+
+/* navbar admin */
+.navKeluar {
+  width: 130px;
+  background-color: #011126;
+  color: white;
+  height: 50px;
+  padding: 10px;
+}
+.navTulisanadmin {
+  font-weight: 500;
+  margin-left: 13px;
+  color: #011126;
+  font-size: 18px;
+  text-align: center;
+}
+.navKeluaradmin {
+  width: 130px;
+  background-color: #011126;
+  color: white;
+  height: 50px;
+  padding: 10px;
+}
+/* end navbaradmin */
+
+/* deskripsi product */
+.clearL-DP {
+  clear: both;
+}
+
+.containerDProdukL-DP {
+  width: 1200px;
+  margin: auto;
+  /* border: 1px solid red; */
+}
+
+.containerImgDProdukL-DP {
+  width: 600px;
+  /* border: 1px solid blue; */
+  float: left;
+}
+
+.imgCardL-DP {
+  width: 296px;
+  height: 400px;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.containerIsiL-DP {
+  float: right;
+  /* border: 1px solid black; */
+  width: 550px;
+}
+
+.judulIsiL-DP {
+  font-weight: 640;
+  font-size: 23px;
+}
+
+.cardDiskonL-DP,
+.cardHargaL-DP {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.cardHargaL-DP {
+  color: #8c661f;
+}
+
+.cardDiskonL-DP {
+  color: grey;
+  margin-left: 5px;
+  text-decoration: line-through #8c661f;
+}
+
+.warnaL-DP,
+.ukuranL-DP {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.ukuranL-DP {
+  margin-top: 15px;
+}
+
+.buttonWarnaL-DP {
+  margin-top: -15px;
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+.buttonSizeL-DP {
+  margin-top: -15px;
+  text-align: center;
+  width: 60px;
+  margin-right: 5px;
+  border: 1px solid black;
+}
+
+.buttonKeranjangL-DP {
+  margin-top: 15px;
+  width: 450px;
+  height: 55px;
+  border: 1px solid black;
+  background-color: #8c661f;
+  color: white;
+}
+
+.fontL-DP {
+  font-weight: 650;
+  font-size: 25px;
+  display: inline-block;
+}
+
+.logoL-DP {
+font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.buttonBeliL-DP {
+  margin-top: 15px;
+  width: 450px;
+  height: 55px;
+  border: 1px solid #8c661f;
+  background-color: white;
+  color: #8c661f;
+  margin-bottom: 15px;
+}
+
+.pilihWarnaL-DP {
+  font-weight: 650;
+  font-size: 15px;
+  color: red;
+}
+
+.deskripsiJudulL-DP {
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.deskripsiIsiL-DP {
+  font-weight: 600;
+  font-size: 15px;
+  text-align: left;
+}
+
+/* end deskripsi product */
+
+/* akun */
+.containerPA-BD {
+  width: 850.5px;
+  margin: auto;
+}
+
+.namaPA-BD {
+  line-height: 35px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.isiPA-BD {
+  width: 500px;
+  height: 35px;
+}
+
+.buttonSimpanPA-BD {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 425px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  background-color: #011126;
+  color: white;
+}
+
+.containerNavPA {
+  width: 950px;
+  margin: auto;
+}
+
+.iconPA,
+.namaPA {
+  font-weight: 600;
+  font-size: 40px;
+  display: inline-block;
+}
+
+.iconPA {
+  margin-right: 5px;
+}
+
+.containerPA {
+  width: 950px;
+  margin: auto;
+}
+
+.divNavPA {
+  margin-bottom: 30px;
+  width: 950px;
+  height: 30px;
+  line-height: 57px;
+}
+
+.isiNavPA {
+  margin: 0px 43px;
+  text-decoration: none;
+  color: #011126;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #011126;
+}
+
+.infoSalahPA-KS {
+  color: red;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.buttonSimpanPA-KS {
+  margin-bottom: 30px;
+  width: 425px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  background-color: #011126;
+  color: white;
+}
+
+.lupaSandiPA-KS {
+  color: #011126;
+  display: block;
+  text-decoration: none;
+  float: right;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.clear {
+  clear: right;
+}
+.hapusAkunPA-P:hover {
+  color: red;
+}
+
+.keluarPA-P,
+.hapusAkunPA-P {
+    display: block;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.keluarPA-P {
+  color: #011126;
+  margin-bottom: 20px;
+}
+
+.hapusAkunPA-P {
+  color: red;
+  margin-bottom: 30px;
+}
+
+/* end akun */
+
+/* transaksi */
+.containerPA-T {
+  width: 850.5px;
+  margin: auto;
+}
+
+.borderPA-T {
+  margin-bottom: 20px;
+}
+
+.p1PA-T,
+.p2PA-T {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.p2PA-T {
+  margin-left: 5px;
+  color: #8c661f;
+}
+
+.borderStatusPA-T {
+  float: right;
+  margin-top: 10px;
+  margin-right: 15px;
+  width: 80px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 25px;
+  color: white;
+  background-color: #011126;
+}
+
+.clearPA-T {
+  clear: right;
+}
+
+.aturPosisiPA-T {
+  margin-top: -25px;
+  margin-left: 15px;
+}
+
+.judulItemPA-T {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.isiItem1PA-T,
+.isiItem2PA-T {
+  margin-top: -20px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.isiItem1PA-T {
+  color: #8c661f;
+}
+
+.aturFloatPA-T {
+  float: right;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: -50px;
+  margin-right: 15px;
+}
+
+.hargaBelanjaPA-T {
+  color: #8c661f;
+  margin-top: -15px;
+}
+
+.fakturPA-T {
+  display: inline-block;
+  margin-top: -25px;
+}
+
+.isiAPA-T {
+  color: #011126;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.borderPA-T {
+  margin-bottom: 20px;
+}
+
+/* end transaksi */
+
+/* keranjang */
+.containerKeranjangK{
+  width: 1219px;
+  margin: auto;
+  /* border: 1px solid black; */
+}
+
+.cardKeranjangK {
+  width: 719px;
+  /* border: 1px solid red; */
+  float: left;
+}
+
+.judulK {
+  font-weight: 640;
+  font-size: 30px;
+}
+
+.cardBorderK {
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+.containerGambarkeranjang {
+  float: left;
+  /* border: 1px solid blue; */
+  margin-right: 15px;
+}
+
+.imgCardKeranjang {
+  width: 240px;
+  height: 300px;
+}
+
+.namaBajuK {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.hargaBajuK,
+.diskonK {
+  font-size: 18px;
+  font-weight: 600;
+  display: inline-block;
+  color: #8c661f;
+}
+
+.diskonK {
+  text-decoration: line-through #8c661f;
+  color: grey;
+  font-size: 14px;
+}
+
+.warnaK,
+.ukuranK {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.buttonWarnaK {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+.buttonSizeK {
+  margin-top: -15px;
+  text-align: center;
+  width: 60px;
+  margin-right: 5px;
+  /* border: 1px solid black; */
+}
+
+.warnaK,
+.buttonWarnaK {
+  margin-top: -15px;
+}
+
+.tableIconK {
+  margin-top: 50px;
+  text-align: center;
+  float: right;
+  word-spacing: 15px;
+  /* border: 1px solid; */
+}
+
+.iconK {
+  font-size: 30px;
+}
+
+.buttonIconK {
+  border: 0px;
+  background-color: white;
+}
+
+.jumlahQtyK {
+  font-weight: 600;
+  font-size: 30px;
+  display: inline-block;
+  /* border: 1px solid blueviolet; */
+  width: 55px;
+}
+
+.cardtotalHargaK {
+  margin-top: 60px;
+  width: 480px;
+  /* border: 1px solid burlywood; */
+  float: right;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.totalBarangK,
+.hargaK {
+  font-weight: 650;
+  font-size: 23px;
+}
+
+.totalBarangK{
+  float: left;
+}
+
+.hargaK {
+  float: right;
+}
+
+.buttonBeliK {
+  background-color: #011126;
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+  width: 460px;
+  height: 70px;
+}
+
+.beliK {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+/* end keranjang */
+
+
+/* start admin, produk, desain, customer, transaksi, pengeluaran ( CRUD ) */
+
+.containerADCPT {
+  width: 850.5px;
+  margin: auto;
+}
+
+.judulADCPT {
+  font-weight: 650;
+  font-size: 30px;
+}
+
+.namaADCPT {
+  line-height: 35px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.isiADCPT {
+  width: 700px;
+  height: 35px;
+}
+
+.isiADCPTFile {
+  width: 300px;
+  height: 35px;
+}
+
+.infoSalahADCPT {
+  color: red;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.buttonSimpanADCPT {
+  width: 425px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  background-color: #011126;
+  color: white;
+}
+
+.textADCPT {
+  width: 700px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+.containerP-MP {
+    
+  width: 1200px;
+  margin: auto;
+  /* border: 1px solid; */
+}
+
+.borderP-MP {
+    float: right;
+    width: 135px;
+    height: 50px;
+    color: #011126;
+    text-align: center;
+    line-height: 45px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.fasP-MP{
+    letter-spacing: 10px;
+}
+
+.clearP-MP{
+    clear: right;
+}
+
+.tableP-MP{
+  text-align: center;
+}
+
+.aP-MP{
+  text-decoration: none;
+  color: #011126;
+  margin: 10px;
+}
+.namaL-B {
+  font-weight: 600;
+  float: left;
+  line-height: 35px;
+}
+
+.isiL-B {
+  font-weight: 600;
+  float: right;
+}
+
+.btnL-B {
+  width: 630px;
+  height: 35px;
+}
+/* end admin, produk, desain, customer, transaksi, pengeluaran ( CRUD ) */
+ 
+/* list alamat */
+.containerLihatAlamat {
+  width: 700px;
+  margin: auto;
+  /* border: 1px solid; */
+}
+
+.namaPA-A {
+  line-height: 35px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.isiPA-A {
+  width: 500px;
+  height: 35px;
+}
+
+.borderAlamat{
+  margin-bottom: 25px;
+  padding: 10px;
+  width: 700px;
+  /* border: 1px solid black; */
+  display: inline-block;
+}
+/* end list alamat */
+
+/* desain admin */
+.containerD-MP {
+    
+  width: 1200px;
+  margin: auto;
+  /* border: 1px solid; */
+}
+
+.borderD-MP {
+    float: right;
+    width: 135px;
+    height: 50px;
+    color: #011126;
+    text-align: center;
+    line-height: 45px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.fasD-MP{
+    letter-spacing: 10px;
+}
+
+.clearD-MP{
+    clear: right;
+}
+
+.tableD-MP{
+  text-align: center;
+}
+
+.aD-MP{
+  text-decoration: none;
+  color: #011126;
+  margin: 10px;
+}
+
+/* end desain admin */
+
+/* delete desain */
+.containerD-HD {
+  width: 850.5px;
+  margin: auto;
+}
+
+.judulD-HD {
+  font-weight: 650;
+  font-size: 30px;
+}
+
+.namaD-HD {
+  line-height: 35px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.isiD-HD {
+  width: 700px;
+  height: 35px;
+}
+
+.isiD-HDFile {
+  width: 300px;
+  height: 35px;
+}
+
+.infoSalahD-HD {
+  color: red;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.buttonHapusD-HD {
+  width: 425px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  background-color: #011126;
+  color: white;
+}
+
+/* end delete desain */
+
+/* edit product */
+.containerP-EP {
+  width: 850.5px;
+  margin: auto;
+}
+
+.judulP-EP {
+  font-weight: 650;
+  font-size: 30px;
+}
+
+.namaP-EP {
+  line-height: 35px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.isiP-EP {
+  /* margin-left: -70px; */
+  width: 700px;
+  height: 35px;
+}
+
+.isiP-EPFile {
+  /* margin-left: -70px; */
+  width: 300px;
+  height: 35px;
+}
+
+.infoSalahP-EP {
+  color: red;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.buttonTambahP-EP {
+  width: 425px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  background-color: #011126;
+  color: white;
+}
+
+/* end edit product */
+
+/* start tambah pengeluaran */
+.containerP-TP {
+  width: 850.5px;
+  margin: auto;
+}
+
+.judulP-TP {
+  font-weight: 650;
+  font-size: 30px;
+}
+
+.namaP-TP {
+  line-height: 35px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.isiP-TP {
+  width: 700px;
+  height: 35px;
+}
+
+.isiP-TPFile {
+  width: 300px;
+  height: 35px;
+}
+
+.infoSalahP-TP {
+  color: red;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.buttonTambahP-TP {
+  width: 425px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  background-color: #011126;
+  color: white;
+}
+
+/* end tambah pengeluaran */
+/* hapus pengeluaran */
+.containerP-HP {
+  width: 850.5px;
+  margin: auto;
+}
+
+.judulP-HP {
+  font-weight: 650;
+  font-size: 30px;
+}
+
+.namaP-HP {
+  line-height: 35px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.isiP-HP {
+  width: 700px;
+  height: 35px;
+}
+
+.isiP-HPFile {
+  width: 300px;
+  height: 35px;
+}
+
+
+.buttonHapusP-HP {
+  width: 425px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  background-color: #011126;
+  color: white;
+}
+/* end hapus pengeluaran */
+
+/* edit pengeluaran */
+
+.containerP-EP {
+  width: 850.5px;
+  margin: auto;
+}
+
+.judulP-EP {
+  font-weight: 650;
+  font-size: 30px;
+}
+
+.namaP-EP {
+  line-height: 35px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.isiP-EP {
+  width: 700px;
+  height: 35px;
+}
+
+.isiP-EPFile {
+  width: 300px;
+  height: 35px;
+}
+
+.infoSalahP-EP {
+  color: red;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.buttonSimpanP-EP {
+  width: 425px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  background-color: #011126;
+  color: white;
+}
+
+/* end edit pengeluaran */
+
+/* akun admin */
+
+.containerA-MP {
+    
+  width: 1200px;
+  margin: auto;
+  /* border: 1px solid; */
+}
+
+.borderA-MP {
+    float: right;
+    width: 135px;
+    height: 50px;
+    color: #011126;
+    text-align: center;
+    line-height: 45px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.fasA-MP{
+    letter-spacing: 10px;
+}
+
+.clearA-MP{
+    clear: right;
+}
+
+.tableA-MP{
+  text-align: center;
+}
+
+.aA-MP{
+  text-decoration: none;
+  color: #011126;
+  margin: 10px;
+}
+
+/* end akun admin */
+
+/* add akun */
+.containerA-TA {
+  width: 850.5px;
+  margin: auto;
+}
+
+.judulA-TA {
+  font-weight: 650;
+  font-size: 30px;
+}
+
+.namaA-TA {
+  line-height: 35px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.isiA-TA {
+  width: 700px;
+  height: 35px;
+}
+
+.infoSalahA-TA {
+  color: red;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.buttonTambahA-TA {
+  width: 425px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  background-color: #011126;
+  color: white;
+}
+
+/* end add akun */
+
+/* edit akun */
+.containerA-EA {
+  width: 850.5px;
+  margin: auto;
+}
+
+.judulA-EA {
+  font-weight: 650;
+  font-size: 30px;
+}
+
+.namaA-EA {
+  line-height: 35px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.isiA-EA {
+  width: 700px;
+  height: 35px;
+}
+
+.infoSalahA-EA {
+  color: red;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.buttonSimpanA-EA {
+  width: 425px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  background-color: #011126;
+  color: white;
+}
+
+/* end edit akun */
+
+/* hapus admin */
+.containerA-HA {
+  width: 850.5px;
+  margin: auto;
+}
+
+.judulA-HA {
+  font-weight: 650;
+  font-size: 30px;
+}
+
+.namaA-HA {
+  line-height: 35px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.isiA-HA {
+  width: 700px;
+  height: 35px;
+}
+
+.isiA-HAFile {
+  width: 300px;
+  height: 35px;
+}
+
+.infoSalahA-HA {
+  color: red;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.buttonHapusA-HA {
+  width: 425px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+  background-color: #011126;
+  color: white;
+}
+
+/* end hapus admin */
+
+/* beli */
+
+.containerKeranjangL-B {
+  width: 1219px;
+  margin: auto;
+  /* border: 1px solid black; */
+}
+
+.cardKeranjangL-B {
+  width: 719px;
+  /* border: 1px solid red; */
+  float: left;
+}
+
+.clearL-B {
+  clear: both;
+}
+
+.judulL-B {
+  font-weight: 640;
+  font-size: 30px;
+}
+
+.borderNewsL-B {
+  border: 1px solid #8c661f;
+  height: 50px;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.isiNewsL-B {
+  line-height: 35px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #8c661f;
+  text-align: center;
+}
+.cardBorderL-B {
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+.containerGambarL-B {
+  float: left;
+  /* border: 1px solid blue; */
+  margin-right: 15px;
+}
+
+.imgCardL-B {
+  width: 240px;
+  height: 300px;
+}
+
+.containerIsiL-B {
+  /* border: 1px solid red; */
+}
+
+.namaBajuL-B {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.hargaBajuL-B,
+.diskonL-B {
+  font-size: 18px;
+  font-weight: 600;
+  display: inline-block;
+  color: #8c661f;
+}
+
+.diskonL-B {
+  text-decoration: line-through #8c661f;
+  color: grey;
+  font-size: 14px;
+}
+
+.warnaL-B,
+.ukuranL-B {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.buttonWarnaL-B {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+.buttonSizeL-B {
+  margin-top: -15px;
+  text-align: center;
+  width: 60px;
+  margin-right: 5px;
+  /* border: 1px solid black; */
+}
+
+.warnaL-B,
+.buttonWarnaL-B {
+  margin-top: -15px;
+}
+
+.tableIconL-B {
+  margin-top: 50px;
+  text-align: center;
+  float: right;
+  word-spacing: 15px;
+  /* border: 1px solid; */
+}
+
+.iconL-B {
+  font-size: 30px;
+}
+
+.buttonIconL-B {
+  border: 0px;
+  background-color: white;
+}
+
+.jumlahQtyL-B {
+  font-weight: 600;
+  font-size: 30px;
+  display: inline-block;
+  /* border: 1px solid blueviolet; */
+  width: 55px;
+}
+
+.cardtotalHargaL-B {
+  margin-top: 65px;
+  width: 480px;
+  /* border: 1px solid burlywood; */
+  float: right;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.ringkasanBelanjaL-B {
+  font-weight: 650;
+  font-size: 28px;
+}
+
+.totalBarangL-B,
+.hargaL-B,
+.totalOngkosL-B {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.totalBarangL-B,
+.totalOngkosL-B,
+.totalTagihanL-B,
+.pilihPengirimanL-B,
+.pilihAlamatL-B,
+.pilihLabelL-B {
+  float: left;
+}
+
+.hargaL-B,
+.totalHargaL-B,
+.dropdownPengirimanL-B,
+.dropdownAlamatL-B,
+.dropdownLabelL-B {
+  float: right;
+}
+
+.totalTagihanL-B,
+.totalHargaL-B,
+.pilihPengirimanL-B,
+.pilihAlamatL-B,
+.pilihLabelL-B {
+  font-weight: 600;
+  font-size: 23px;
+}
+.buttonBayarL-B {
+  background-color: #011126;
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+  width: 460px;
+  height: 70px;
+}
+
+.cardPengirimanL-B {
+  margin-top: 48px;
+  width: 480px;
+  /* border: 1px solid burlywood; */
+  float: right;
+  box-sizing: border-box;
+}
+
+.pPembayaranL-B {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.namaL-B,
+.noTelpL-B,
+.alamatL-B,
+.noteL-B {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: left;
+  color: grey;
+}
+
+.noTelpL-B,
+.alamatL-B,
+.noteL-B {
+  margin-top: -15px;
+}
+
+.borderPengirimanL-B,
+.borderAlamatL-B,.borderLabelL-B {
+  width: 110px;
+  word-spacing: 15px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.turunL-B {
+  margin-top: 27px;
+}
+/* end beli */
+
+/* transaksi */
+.containerT-MP {
+  width: 1200px;
+  margin: auto;
+  /* border: 1px solid; */
+}
+
+.borderT-MP {
+  float: right;
+  width: 135px;
+  height: 50px;
+  color: #011126;
+  text-align: center;
+  line-height: 45px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.fasT-MP {
+  letter-spacing: 10px;
+}
+
+.clearT-MP {
+  clear: right;
+}
+
+.tableT-MP {
+  text-align: center;
+}
+
+.aT-MP {
+  text-decoration: none;
+  color: #011126;
+  margin: 10px;
+}
+
+.popupT-MP {
+  margin-left: 10px;
+  border: 0px;
+  background-color: white;
+}
+
+/* end transaksi */
+/* qr */
+.h1Class {
+  margin-top: 30px;
+  margin-left: 50px;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.menungguBayar {
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #011126;
+  text-align: center;
+  font-size: 23px;
+}
+
+.borderRingkasan {
+  display: inline-block;
+  width: 800px;
+  height: 215px;
+}
+
+.aturMarginJudul {
+  font-weight: 700;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.aturMarginIsi {
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: -130px;
+  margin-right: 20px;
+}
+/* end qr */
